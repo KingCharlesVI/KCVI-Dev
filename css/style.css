@@ -3,10 +3,10 @@
 }
 a:visited { 
   text-decoration: none; 
-  color: orange; 
+  color: #ff6600; 
  }
 a:link {
-  color: orange;
+  color: #ff6600;
 }
 body{
   padding: 0;
@@ -42,7 +42,7 @@ header nav a {
   padding: 10px 15px;
 }
 header nav a.active{
-  background: #fed136;
+  background: white;
   border-radius: 3px;
 }
 #home{
@@ -57,7 +57,7 @@ header nav a.active{
 }
 #home .divider{
   width: 80px;
-  border-top: 5px solid orange;
+  border-top: 5px solid #ff6600;
   margin: 0 auto;
 }
 #home p{
@@ -83,7 +83,7 @@ header nav a.active{
   transition: all .3s;
 }
 #home .social a:hover{
-  background-color: #fed136;
+  background-color: #ffffff;
 }
 #servicios .box{
   display: inline-block;
@@ -97,45 +97,45 @@ header nav a.active{
   text-align: center;
   padding: 30px 0 ;
 }
-#portafolio{
+#portfolio{
   background-color: whitesmoke;
 }
-#portafolio .box{
+#portfolio .box{
   display: inline-block;
   text-align: center;
   width: 31%;
   margin: 1%;
   background-color: white;
 }
-#portafolio .box img{
+#portfolio .box img{
   width: 100%;
 }
-#portafolio .box p{
+#portfolio .box p{
   color: #666;
   padding: 10px;
 }
-#contacto{
+#contact{
   background-color: #303030;
   background-image: url('../images/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
 }
-#contacto h2{
+#contact h2{
   color: white;
 }
-#contacto input{
+#contact input{
   padding: 20px;
   width: 400px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-#contacto textarea {
+#contact textarea {
   margin: 20px 0;
   padding: 20px;
   width: 400px;
 }
-#contacto button{
+#contact button{
   background: #fed136;
   padding: 20px 40px;
   border-color: #fed136;
